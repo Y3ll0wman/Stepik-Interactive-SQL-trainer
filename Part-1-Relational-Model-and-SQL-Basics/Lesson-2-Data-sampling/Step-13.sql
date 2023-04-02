@@ -20,4 +20,8 @@
 --5	Стихотворения и поэмы	Есенин С.А.	650.00	15
 
 
-SELECT title, author, ROUND((price * amount),2) AS sum_price FROM book ORDER BY sum_price DESC;
+SELECT title,
+    author,
+    ROUND((price * amount),2) AS sum_price
+FROM book
+ORDER BY sum_price DESC;

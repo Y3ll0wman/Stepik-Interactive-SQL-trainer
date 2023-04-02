@@ -15,4 +15,6 @@
 --Affected rows: 5
 
 
-SELECT title AS Название, author AS Автор FROM book;
+SELECT title AS Название,
+    author AS Автор
+FROM book;

@@ -15,4 +15,7 @@
 --Affected rows: 5
 
 
-SELECT title, amount, amount * 1.65 AS pack FROM book;
+SELECT title,
+    amount,
+    amount * 1.65 AS pack
+FROM book;
